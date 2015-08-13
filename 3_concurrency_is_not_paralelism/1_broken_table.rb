@@ -1,4 +1,4 @@
-#Lets see that you can have concurrency issues even without paralelism
+#Let's see that you can have concurrency issues even without parallelism
 #(note we are using plain ruby now and not jruby)
 class Table
   def initialize(hash)
@@ -65,4 +65,3 @@ def concurrent_test2(count)
   end.each(&:join)
   table
 end
-
