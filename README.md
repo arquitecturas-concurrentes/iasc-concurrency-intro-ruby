@@ -1,4 +1,10 @@
-## Script Intro Concurrencia
+# Ejemplos de Concurrencia Tracional con Ruby y JRuby
+
+## Texto completo 
+
+La explicación de estos ejemplos está [en nuestro blog](https://medium.com/@flbulgarelli/arquitecturas-concurrentes-episodio-2-algo-llamado-concurrencia-ab4994870eb1) 
+
+## Vistazo rápido de los ejemplos
 
 ### 1. Intro
 
