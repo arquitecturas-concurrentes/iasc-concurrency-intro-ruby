@@ -4,6 +4,8 @@
 
 instalar ruby con rbenv como dice [acá](http://uqbar-wiki.org/index.php?title=Gu%C3%ADa_de_Instalaci%C3%B3n_de_Ruby#2._Instalar_RBENV)  
 
+Si quieren instalar en cambio ruby de otra manera pueden referirse a las [guías que tenemos](http://arquitecturas-concurrentes.github.io/material/#guias)
+
 ## Texto completo 
 
 La explicación de estos ejemplos está [en nuestro blog](https://medium.com/@flbulgarelli/arquitecturas-concurrentes-episodio-2-algo-llamado-concurrencia-ab4994870eb1) 
