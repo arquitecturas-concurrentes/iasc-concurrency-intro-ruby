@@ -6,6 +6,18 @@ instalar ruby con rbenv como dice [acá](http://uqbar-wiki.org/index.php?title=G
 
 Si quieren instalar en cambio ruby de otra manera pueden referirse a las [guías que tenemos](http://arquitecturas-concurrentes.github.io/material/#guias)
 
+Luego de esto si queremos ejecutar alguno de los ejemplos podemos hacerlo mediante el comando de linea de ruby o si queremos probar otras cosas podemos hacerlo mediante pry, que es un REPL más lindo que IRB. para ello debemos hacer 
+```
+gem install pry
+```
+Luego de eso podemos situarnos en cualquiera de los ejemplos, y en la carpeta que los contiene hacer
+
+```
+pry
+```
+
+Una vez adentro del intérprete, basta con hacer un require_relative '<nombre del archivo.rb>' y de ahi podemos ya usar el código de los ejemplos como querramos de manera rápida
+
 ## Texto completo 
 
 La explicación de estos ejemplos está [en nuestro blog](https://medium.com/@flbulgarelli/arquitecturas-concurrentes-episodio-2-algo-llamado-concurrencia-ab4994870eb1) 
