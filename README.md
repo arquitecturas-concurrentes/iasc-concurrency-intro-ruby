@@ -1,12 +1,12 @@
-# Ejemplos de Concurrencia Tracional con Ruby y JRuby
+# Ejemplos de Concurrencia Tradicional con Ruby y JRuby
 
 ##Antes de empezar...
 
-instalar ruby con rbenv como dice [acá](http://uqbar-wiki.org/index.php?title=Gu%C3%ADa_de_Instalaci%C3%B3n_de_Ruby#2._Instalar_RBENV)  
+Instalar ruby con rbenv como dice [acá](http://uqbar-wiki.org/index.php?title=Gu%C3%ADa_de_Instalaci%C3%B3n_de_Ruby#2._Instalar_RBENV)  
 
 Si quieren instalar en cambio ruby de otra manera pueden referirse a las [guías que tenemos](http://arquitecturas-concurrentes.github.io/material/#guias)
 
-Luego de esto si queremos ejecutar alguno de los ejemplos podemos hacerlo mediante el comando de linea de ruby o si queremos probar otras cosas podemos hacerlo mediante pry, que es un REPL más lindo que IRB. para ello debemos hacer 
+Luego de esto si queremos ejecutar alguno de los ejemplos podemos hacerlo mediante el comando de linea de ruby o si queremos probar otras cosas podemos hacerlo mediante `pry`, que es un REPL más lindo que [IRB](http://ruby-doc.org/stdlib-2.0.0/libdoc/irb/rdoc/IRB.html). para ello debemos hacer 
 ```
 gem install pry
 ```
@@ -16,7 +16,7 @@ Luego de eso podemos situarnos en cualquiera de los ejemplos, y en la carpeta qu
 pry
 ```
 
-Una vez adentro del intérprete, basta con hacer un require_relative '<nombre del archivo.rb>' y de ahi podemos ya usar el código de los ejemplos como querramos de manera rápida
+Una vez adentro del intérprete, basta con hacer un `require_relative '<nombre del archivo.rb>'` y de ahi podemos ya usar el código de los ejemplos como querramos de manera rápida
 
 ## Texto completo 
 
@@ -40,5 +40,5 @@ Bueno, no. Ejemplo del mapa. Errores comunes sobre la concurrencia:
 
 ### 3. El problema es la concurrencia, no el paralelismo. 
   
-  1. Una tabla rota en mri. **Aunque no haya paralelismo, la concurrencia existe (y puede dañar!)**
+  1. Una tabla rota en MRI. **Aunque no haya paralelismo, la concurrencia existe (y puede dañar!)**
   2. Locks (Mutex) vs Reentrant Locks (Monitor)
