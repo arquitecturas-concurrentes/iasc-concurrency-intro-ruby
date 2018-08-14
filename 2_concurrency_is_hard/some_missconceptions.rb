@@ -33,7 +33,7 @@ describe 'concurrency is not easy' do
   end
 
 
-  describe 'misconception 2: unsynchronized code always breaks' do
+  describe 'misconception 2: synchronized never breaks' do
     it do
       @map = Hashtable.new
       @map['foo'] = 0
