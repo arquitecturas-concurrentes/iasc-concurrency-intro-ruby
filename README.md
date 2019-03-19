@@ -1,6 +1,6 @@
 # Ejemplos de Concurrencia Tradicional con Ruby y JRuby
 
-##Antes de empezar...
+## Antes de empezar...
 
 Instalar ruby con rbenv como dice [acá](http://uqbar-wiki.org/index.php?title=Gu%C3%ADa_de_Instalaci%C3%B3n_de_Ruby#2._Instalar_RBENV)  
 
